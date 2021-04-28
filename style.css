@@ -1,0 +1,45 @@
+h1{
+    padding: 10px 0 0 0;
+}
+.pest-control-form{
+    border: 1px solid #E3E3E3;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 4px 4px 8px 8px #E3E3E3;
+}
+input{
+    
+}
+button{
+    margin-bottom: 10px;
+}
+.user-data{
+    border: 1px solid #E3E3E3;
+    border-radius: 5px;
+    background: #FFF;
+    box-shadow: 4px 4px 8px 8px #E3E3E3;
+    margin-top: 30px;
+}
+/* Smart phones */
+@media only screen and (max-width: 600px) {
+    
+ }
+ /* Tablets */
+ @media only screen and(min-width: 600px) {
+    
+ }
+ /* Ipads */
+ @media only screen and (min-width: 768px) {
+     
+ }
+ /* tops comps */
+ @media only screen and (min-width: 992px) {
+
+ }
+ /*Computer and tvs, large screens */
+ @media only screen and (min-width: 1200px) {
+    .pest-control-form, .user-data{
+        margin: 10px 500px 0 500px;
+        padding: 30px;
+    }
+ }
