@@ -9,15 +9,18 @@
 */
 
 /*
-3.)
+3.) */ echo “comment”; /*
 */
 
 /*
-4.)
+4.)  It should start with the $ sign followed by the variable.
+     Variables are case sensitive.
+     A variable name cannot start with a number, it starts with a letter or the undrscore character.
+
 */
 
 /*
-5.)
+5.) By using the function join()
 */
 
 /*
@@ -59,15 +62,15 @@
 */
 
 /*
-9.)
+9.) echo strrev("hello world");
 */
 
 /*
-10.)
+10.) asort()
 */
 
 /*
-11.)
+11.) A PHP array is a variable that stores more than one piece of related data in a single variable.
 */
 
 ?>
