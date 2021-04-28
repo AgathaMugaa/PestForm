@@ -5,12 +5,6 @@
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
 <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-eOJMYsd53ii+scO/bJGFsiCZc+5NDVN2yr8+0RDqr0Ql0h+rP48ckxlpbzKgwra6" crossorigin="anonymous">
 <link rel="stylesheet" type="text/css" href="style.css">
-<style>
-h1{
-    text-align: center;
-}
-
-</style>
 </head>
 <body>
 <section>
@@ -32,7 +26,7 @@ h1{
         </select></br>
         <button class='btn btn-success' type='submit' name='submitForm'>Submit</button>
     </form>
-</div>
+</div></br>
 <?php 
 
       if(isset($_POST['submitForm'])){
@@ -51,7 +45,7 @@ h1{
                         <p><b>House number:</b> $house</p>
                         <p><b>Phone number:</b> $phone</p>
                         <p><b>Pest to control:</b> $email</p>
-                    </div>
+                    </div></br>
 
                ";
 

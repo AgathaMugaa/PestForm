@@ -1,5 +1,6 @@
 h1{
     padding: 10px 0 0 0;
+    text-align: center;
 }
 .pest-control-form{
     border: 1px solid #E3E3E3;
@@ -22,7 +23,10 @@ button{
 }
 /* Smart phones */
 @media only screen and (max-width: 600px) {
-    
+    .pest-control-form, .user-data{
+        margin: 10px 30px 0 30px;
+        padding: 30px;
+    }
  }
  /* Tablets */
  @media only screen and(min-width: 600px) {
@@ -30,11 +34,17 @@ button{
  }
  /* Ipads */
  @media only screen and (min-width: 768px) {
-     
+    .pest-control-form, .user-data{
+        margin: 10px 30px 0 30px;
+        padding: 30px;
+    }
  }
  /* tops comps */
  @media only screen and (min-width: 992px) {
-
+    .pest-control-form, .user-data{
+        margin: 10px 500px 0 500px;
+        padding: 30px;
+    }
  }
  /*Computer and tvs, large screens */
  @media only screen and (min-width: 1200px) {
