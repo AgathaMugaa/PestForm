@@ -31,7 +31,7 @@ require 'connect.php';
             <option>Select pest to control</option>
             <option value='cockroaches'>Cockroaches</option>
             <option value='rats'>Rats</option>
-            <option value='pet'>Pet</option>
+            <option value='rodents'>rodents</option>
             <option value='pest'>Pest</option>
         </select></br>
         <input type='date' class='form-control' name='control-date' required='required'></br>
